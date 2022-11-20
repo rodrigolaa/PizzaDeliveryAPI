@@ -8,18 +8,18 @@
 
 [Reference of Project](https://www.youtube.com/watch?v=QQXQAZuJSdw&list=PLEt8Tae2spYnLMAf8RGCNYhovIFZHVsPP&index=1) 
 
-[![Youtube](<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> | `https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white`)
+![Youtube](<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> | `https://www.youtube.com/watch?v=QQXQAZuJSdw&list=PLEt8Tae2spYnLMAf8RGCNYhovIFZHVsPP&index=1`)
 
 
 ## Description
 
 This project has the porpuse to create an real api project with Fast Api that allow us to understand and put in practice:
-'''
-authentication principles with JWT, 
-Develop and Config Database in Postgress SQL,
-Log in and Signup methods, 
-CRUD methods with Order's event
-'''
+
+- authentication principles with JWT, 
+- Develop and Config Database in Postgress SQL,
+- Log in and Signup methods, 
+- CRUD methods with Order's event
+
 
 ---
 
