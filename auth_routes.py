@@ -18,7 +18,10 @@ session = Session(bind=engine)
 
 @auth_router.get("/")
 async def hello(Authorize:AuthJWT=Depends()):
-
+    """
+        ## A sample hello world route
+        This returns Hello World!
+    """
     try:
         Authorize.jwt_required()
 
@@ -35,6 +38,18 @@ async def hello(Authorize:AuthJWT=Depends()):
 @auth_router.post('/singup', status_code=status.HTTP_201_CREATED)
 
 async def singup(user:SignUpModel):
+    """
+        ## Create a user. Requires the following:
+            ```
+            
+                username: int,
+                email: str,
+                password: str,
+                is_staff: bool,
+                is_activate: bool
+            
+            ```
+    """
     db_email=session.query(User).filter(User.email==user.email).first()
 
     if db_email is not None:
@@ -71,6 +86,17 @@ async def singup(user:SignUpModel):
 
 async def login(user:LoginModel, Authorize:AuthJWT=Depends()):
 
+    """
+        ## Login a user. Requires the following:
+
+            ```
+                username: int,
+                password: str
+            
+            ```
+            and returns a token pair `access_token` and `refresh`
+    """
+
     db_user=session.query(User).filter(User.username==user.username).first()
 
     if db_user and check_password_hash(db_user.password,user.password):
@@ -95,6 +121,14 @@ async def login(user:LoginModel, Authorize:AuthJWT=Depends()):
 
 @auth_router.get('/refresh')
 async def refresh_token(Authorize:AuthJWT=Depends()):
+    """
+        ## Refresh a access token. Requires the following:
+
+            ```
+                access_token: str,
+            
+            ```
+    """
     try:
         Authorize.jwt_refresh_token_required()
 
