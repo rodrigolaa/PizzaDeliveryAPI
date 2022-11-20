@@ -30,6 +30,7 @@ async def hello(Authorize:AuthJWT=Depends()):
     return{"message": "Hello World"}
 
 
+#Sign Up Router (create an user in the database)
 
 @auth_router.post('/singup', status_code=status.HTTP_201_CREATED)
 
@@ -64,7 +65,7 @@ async def singup(user:SignUpModel):
     return new_user
 
 
-#login route
+#login route (authorize user and get access to the api)
 
 @auth_router.post('/login')
 
