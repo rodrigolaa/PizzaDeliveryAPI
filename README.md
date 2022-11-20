@@ -10,6 +10,7 @@ This project has the porpuse to create an real api project with Fast Api that al
 - Develop and Config Database in Postgress SQL,
 - Log in and Signup methods, 
 - CRUD methods with Order's event
+- Set up Automatic API Documentation with Swagger
 
 
 
