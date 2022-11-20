@@ -4,8 +4,8 @@
 
 ## Selecione o README que deseja usar
 
-[![Perfil](https://img.shields.io/badge/perfil%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=F745B5)](https://github.com/iuricode/readme-template/tree/main/profile)
-[Reference of Project](https://www.youtube.com/watch?v=QQXQAZuJSdw&list=PLEt8Tae2spYnLMAf8RGCNYhovIFZHVsPP&index=1)
+[![Perfil](https://img.shields.io/badge/perfil%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=F745B5)](https://github.com/rodrigolaa)
+/[Reference of Project](https://www.youtube.com/watch?v=QQXQAZuJSdw&list=PLEt8Tae2spYnLMAf8RGCNYhovIFZHVsPP&index=1) ![Youtube](<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> | `https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white`)
 
 
 ## Recursos para o README
