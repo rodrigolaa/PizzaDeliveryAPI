@@ -2,6 +2,11 @@
 📄<br>README 
 </h1>
 
+## Practice FastAPI!
+<h1 align="center">
+    <br> <img src="python-fast-api-dalle.png" height = 250 width = 250>
+</h1>
+
 ## Description
 
 This project has the porpuse to create an real api project with Fast Api that allow us to understand and put in practice:
